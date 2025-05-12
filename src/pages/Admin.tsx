@@ -5,7 +5,7 @@ import { useSongData } from "../context/SongContext";
 import { useEffect, useState, type ChangeEvent, type FormEvent } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-const server = "http://13.232.120.206";
+const server = "http://13.234.213.255";
 
 export default function Admin() {
   const navigate = useNavigate();

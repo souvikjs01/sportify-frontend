@@ -3,7 +3,7 @@ import type { User } from "../lib/types";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
-const server = "http://13.232.120.206"; 
+const server = "http://13.234.213.255"; 
 
 interface UserContextType {
     user: User | null;
