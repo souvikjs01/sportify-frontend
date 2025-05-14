@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 import type { Album, Song } from "../lib/types";
 import axios from "axios";
+// admin server url
 const server = "https://spotify-admin-service.onrender.com"; 
 // const server = "http://localhost:8080";
 

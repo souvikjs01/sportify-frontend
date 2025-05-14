@@ -5,6 +5,7 @@ import { useSongData } from "../context/SongContext";
 import { useEffect, useState, type ChangeEvent, type FormEvent } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
+// admin server url
 const server = "https://spotify-admin-service.onrender.com"; 
 // const server = "http://localhost:3000";
 
