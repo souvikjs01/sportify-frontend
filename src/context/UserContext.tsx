@@ -3,7 +3,8 @@ import type { User } from "../lib/types";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
-const server = "http://13.234.213.255"; 
+const server = "https://spotify-admin-service.onrender.com"; 
+// const server = "http://localhost:3000"; 
 
 interface UserContextType {
     user: User | null;

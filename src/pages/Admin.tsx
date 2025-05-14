@@ -5,7 +5,8 @@ import { useSongData } from "../context/SongContext";
 import { useEffect, useState, type ChangeEvent, type FormEvent } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-const server = "http://13.234.213.255";
+const server = "https://spotify-admin-service.onrender.com"; 
+// const server = "http://localhost:3000";
 
 export default function Admin() {
   const navigate = useNavigate();

@@ -1,7 +1,8 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 import type { Album, Song } from "../lib/types";
 import axios from "axios";
-const server = "http://13.232.120.206";
+const server = "https://spotify-admin-service.onrender.com"; 
+// const server = "http://localhost:8080";
 
 
 interface SongContextType {
