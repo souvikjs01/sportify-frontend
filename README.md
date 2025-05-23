@@ -52,9 +52,9 @@ It is a full-featured, Spotify-inspired music streaming application built using 
 ---
 
 Spotify/
-├── user-service/         # Backend service for users/music/playlists
-├── admin-service/        # Backend service for admin CRUD
-├── client/               # React frontend
+├── user-service/
+├── admin-service/
+├── client/
 ├── .gitignore          
 ├── README.md
 
